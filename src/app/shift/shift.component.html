@@ -1,0 +1,6 @@
+<div class="layout-row justify-content-center mt-100">
+  <select data-test-id="select" (change)="onShiftSelected($event)">
+    <option [value]="-1">Enter shift amount</option>
+    <option *ngFor="let option of shiftOptions; let i=index" [value]="i">{{i}}</option>
+  </select>
+</div>

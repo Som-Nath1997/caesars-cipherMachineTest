@@ -1,0 +1,15 @@
+<div class="card mr-20 w-18">
+  <h3 class="card-text text-center my-0 py-20">Plaintext</h3>
+  <textarea
+    name="plaintext"
+    rows={{6}}
+    cols={{30}}
+    placeholder="Enter plaintext"
+    class="mx-25 mb-25"
+    data-test-id="plain-text"
+    [(ngModel)]="plainText" 
+    [value]="plainText"
+    (input)="onPlainTextInput()" 
+  >
+  </textarea>
+</div>

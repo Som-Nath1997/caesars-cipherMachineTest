@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 131.0.0.0 (Windows 10)" package="unit" timestamp="2025-01-09T17:54:07" id="0" hostname="Acer" tests="5" errors="0" failures="0" time="0.084">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/131.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent check if ciphertext to plaintext conversion works" time="0.063" classname=".AppComponent"/>
+  <testcase name="AppComponent check if plaintext to ciphertext conversion works" time="0.006" classname=".AppComponent"/>
+  <testcase name="AppComponent check if you can write in plain and cipher fields if field not empty" time="0.004" classname=".AppComponent"/>
+  <testcase name="AppComponent check if you can write in plain and cipher fields without page refresh" time="0.005" classname=".AppComponent"/>
+  <testcase name="AppComponent check default/initial state of the select dropdown" time="0.006" classname=".AppComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
